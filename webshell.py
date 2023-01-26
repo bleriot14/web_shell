@@ -1331,8 +1331,8 @@ def main():
 		help = "show version number")
 	parser.add_option("-i", dest = "interface", default = "", 
 		help = "set listen interface (default: 0.0.0.0)")
-	parser.add_option("-p", dest = "port", default = "8022", 
-		help = "set listen port (default: 8022)")
+	parser.add_option("-p", dest = "port", default = "8081", 
+		help = "set listen port (default: 8081)")
 	parser.add_option("-c", dest = "cmd", default = None, 
 		help = "set shell command (default: ssh localhost)")
 	parser.add_option("-t", dest = "term", default = "xterm-color",
